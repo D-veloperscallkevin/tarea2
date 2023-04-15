@@ -7,44 +7,30 @@
   width: 300px;
 }
 
-.title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 8px;
+.titulo {
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
-.description {
+.descrip {
   font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
   margin-bottom: 16px;
 }
 
-.quantity {
-  display: flex;
-  align-items: center;
+.design{
+  background-color: yellow;
+  font-weight: bolder;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
 }
 
-.btn {
-  display: inline-block;
-  background-color: #FFDA33;
-  color: #333;
-  border: none;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
+span{
+  margin: 10px;
   font-size: 20px;
-  font-weight: bold;
-  margin-right: 8px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
 }
-
-.btn:hover {
-  background-color: #333;
-  color: #fff;
-}
-
-.btn:active {
-  transform: scale(0.9);
-}
-
-  

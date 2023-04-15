@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Product.css'
 
-const Product = ({ titulo, descripcion }) => {
+const Product = ({ titulo, descripcion, imagen}) => {
   const [cantidad, setCantidad] = useState(1);
 
   const hacerSuma = () => {
@@ -16,12 +16,13 @@ const Product = ({ titulo, descripcion }) => {
 
   return (
     <div className="tarjeta">
-      <h2>{titulo}</h2>
-      <p>{descripcion}</p>
+      <img src={imagen}/>
+      <h2 className="titulo">{titulo}</h2>
+      <p className="descrip">{descripcion}</p>
       <div className="cantidad">
-        <button onClick={hacerResta}>-</button>
+        <button className="design" onClick={hacerResta}>-</button>
         <span>{cantidad}</span>
-        <button onClick={hacerSuma}>+</button>
+        <button className="design" onClick={hacerSuma}>+</button>
       </div>
     </div>
   );

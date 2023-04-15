@@ -7,8 +7,11 @@
   }
   
   .navbar-title {
-    font-family: 'Arial', sans-serif;
-    font-size: 28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 33px;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: bolder;
     font-weight: bold;
   }
   
