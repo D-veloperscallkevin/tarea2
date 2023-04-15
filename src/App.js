@@ -40,7 +40,7 @@ function App() {
 
       <Tarjeta 
       titulo={"HORARIO DEL MES DE ABRIL"}
-      descripcion={"De Lunes a Viernes tenemos abierto de 10am a 10pm. Los Sabados y Domingos abrimos de 9am a 11pm"}/>
+      descripcion={"De Lunes a Viernes tenemos abierto de 10am a 10pm. Los Sábados y Domingos abrimos de 9am a 11pm"}/>
       </div>
 
       <div className='anuncio'>
