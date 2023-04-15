@@ -1,0 +1,50 @@
+.tarjeta {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #FFDA33;
+  color: #333;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+  
