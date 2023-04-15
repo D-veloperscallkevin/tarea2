@@ -31,7 +31,7 @@ function App() {
       <Product
       imagen={producto3}
       titulo={"Pizza De Boca en Boca"}
-      descripcion={"Es la mas básica del restaurante, contiene pasas y piña bañadas."}/>
+      descripcion={"Es la más básica del restaurante, contiene pasas y piña bañadas."}/>
       </div>
       <div className='position'>
       <Tarjeta 
